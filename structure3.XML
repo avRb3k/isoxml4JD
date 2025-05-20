@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<ISO11783_TaskData ManagementSoftwareManufacturer="AGCO Field Logistics" TaskControllerManufacturer="John Deere" VersionMinor="2" ManagementSoftwareVersion="1.10.2" VersionMajor="4" DataTransferOrigin="2" TaskControllerVersion="3">
+	<PGP A="PGP1" B="CropType" C="2"/>
+	<CTR A="CTR1" B="Kunde"/>
+	<FRM A="FRM1" B="Bauer" I="CTR1"/>
+	<PFD F="FRM1" D="0" A="PFD1" E="CTR1" C="Acker123">
+		<PLN A="1" B="Gen4-Vermessung">
+		</PLN>
+		<GGP A="GGP-0001" B="pikeneer_AB">
+			<GPN A="GPN-0001" B="pikeneer_AB" C="1"/>
+		</GGP>
+		<LSG A="5" B="AB_0">
+			<PNT D="8.119591113" A="2" C="52.763252327"/>
+			<PNT D="8.119547842999999" A="2" C="52.76300911"/>
+		</LSG>
+	</PFD>
+	<CTP A="CTP-1" B="CropType"/>
+</ISO11783_TaskData>
